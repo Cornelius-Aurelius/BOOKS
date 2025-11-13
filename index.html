@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cornelius Aurelius — Book Library</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #fafafa;
+        color: #111;
+    }
+
+    header {
+        text-align: center;
+        padding: 60px 20px;
+        background: #111;
+        color: white;
+    }
+
+    header h1 {
+        font-size: 46px;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+
+    header p {
+        font-size: 20px;
+        opacity: 0.8;
+    }
+
+    section {
+        max-width: 1400px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    h2.section-title {
+        font-size: 32px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-weight: 700;
+        color: #111;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 30px;
+    }
+
+    .book {
+        background: white;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .book:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    }
+
+    .book img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+    .book h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .book p {
+        font-size: 14px;
+        opacity: 0.85;
+        line-height: 1.45;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 18px;
+        background: #ff9900;
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 6px;
+        transition: background 0.2s ease;
+    }
+
+    .btn:hover {
+        background: #e68a00;
+    }
+
+    .btn-grey {
+        display: inline-block;
+        padding: 10px 18px;
+        background: #444;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 6px;
+        pointer-events: none;
+        opacity: 0.85;
+    }
+
+    footer {
+        text-align: center;
+        padding: 40px;
+        margin-top: 40px;
+        color: #666;
+    }
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Cornelius Aurelius</h1>
+    <p>Author • Creator • Systems Designer</p>
+</header>
+
+<!-- AVAILABLE NOW -->
+<section>
+    <h2 class="section-title">Available Now</h2>
+
+    <div class="grid">
+
+        <!-- PROOF IS KING -->
+        <div class="book">
+            <img src="images/PROOF IS KING.png" alt="PROOF IS KING" />
+            <h3>PROOF IS KING</h3>
+            <p>How to attract customers, build trust, and make sales without saying a word.</p>
+            <a class="btn" href="https://www.amazon.co.uk/Proof-King-Attract-Customers-Without/dp/B0F9B6VZRF/" target="_blank">Buy on Amazon</a>
+        </div>
+
+        <!-- Rich Yin Poor Yang -->
+        <div class="book">
+            <img src="images/Rich Yin Poor Yang.png" alt="Rich Yin Poor Yang" />
+            <h3>Rich Yin Poor Yang</h3>
+            <p>A new code for wealth, health, balance, and meaning in an overwhelmed world.</p>
+            <a class="btn" href="https://www.amazon.co.uk/Rich-Yin-Poor-Yang-Meaning/dp/B0F9R3JKJH/" target="_blank">Buy on Amazon</a>
+        </div>
+
+        <!-- Just Get Skills -->
+        <div class="book">
+            <img src="images/Just Get Skills.png" alt="Just Get Skills" />
+            <h3>Just Get Skills</h3>
+            <p>Build confidence, reinvent yourself, and change your life by mastering skills.</p>
+            <a class="btn" href="https://www.amazon.co.uk/JUST-GET-SKILLS-Confidence-Reinvent/dp/B0FPBLS4SB/" target="_blank">Buy on Amazon</a>
+        </div>
+
+        <!-- A Book for Dumb Bitches -->
+        <div class="book">
+            <img src="images/A BOOK FOR DUMB BITCHES   Why Do I Pick The Wrong Men_   Written by an Attractive Narcissist   CORNELIUS AURELIUS - book cover.png" alt="A Book for Dumb Bitches" />
+            <h3>A Book for Dumb Bitches</h3>
+            <p>A brutally honest psychological breakdown of why you pick the wrong men.</p>
+            <a class="btn" href="https://www.amazon.co.uk/Book-Dumb-Bitches-Attractive-Narcissist/dp/B0FJLMHR83/" target="_blank">Buy on Amazon</a>
+        </div>
+
+        <!-- The Farting Ghost -->
+        <div class="book">
+            <img src="images/farting-ghost.jpg" alt="The Farting Ghost" />
+            <h3>The Farting Ghost Who Stole My Halloween Sweets</h3>
+            <p>A wild and hilarious children’s Halloween adventure.</p>
+            <a class="btn" href="https://www.amazon.co.uk/Farting-Ghost-Stole-Halloween-Sweets/dp/B0FV8QMK5V/" target="_blank">Buy on Amazon</a>
+        </div>
+
+        <!-- Omniscientrix Notebook (you upload image manually) -->
+        <div class="book">
+            <img src="images/omniscientrix-notebook.jpg" alt="Omniscientrix Notebook" />
+            <h3>Omniscientrix Self Aware Notebook</h3>
+            <p>A guided notebook for intelligence, awareness, and transformation.</p>
+            <a class="btn" href="https://www.amazon.co.uk/OMNISCIENTRIX-AWARE-NOTEBOOK-Cornelius-Aurelius/dp/B0FWZR7NCP/" target="_blank">Buy on Amazon</a>
+        </div>
+
+        <!-- The Imagination Book -->
+        <div class="book">
+            <img src="images/imagination-book.jpg" alt="The Imagination Book" />
+            <h3>The Imagination Book</h3>
+            <p>138 one-minute adventures for creativity, bonding, and bedtime joy.</p>
+            <a class="btn" href="https://www.amazon.co.uk/Imagination-Book-One-Minute-Adventures-Connection/dp/B0FKS5KYSP/" target="_blank">Buy on Amazon</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- COMING SOON -->
+<section>
+    <h2 class="section-title">Coming Soon</h2>
+
+    <div class="grid">
+
+        <div class="book">
+            <img src="images/USEFUL AND DESIRABLE.png" alt="USEFUL AND DESIRABLE" />
+            <h3>USEFUL AND DESIRABLE</h3>
+            <a class="btn-grey">Coming Soon</a>
+        </div>
+
+        <div class="book">
+            <img src="images/Colour Blind in Football.png" alt="Colour Blind in Football" />
+            <h3>Colour Blind in Football</h3>
+            <a class="btn-grey">Coming Soon</a>
+        </div>
+
+        <div class="book">
+            <img src="images/My Dream Failed. Now What.png" alt="My Dream Failed. Now What" />
+            <h3>My Dream Failed. Now What</h3>
+            <a class="btn-grey">Coming Soon</a>
+        </div>
+
+        <div class="book">
+            <img src="images/I AM Not Yet Who I Am.png" alt="I Am Not Yet Who I Am" />
+            <h3>I Am Not Yet Who I Am</h3>
+            <a class="btn-grey">Coming Soon</a>
+        </div>
+
+        <div class="book">
+            <img src="images/Calibrate to Win How to Outsmart, Outlast, and Outperform in Every Environment.png" alt="Calibrate to Win" />
+            <h3>Calibrate to Win</h3>
+            <a class="btn-grey">Coming Soon</a>
+        </div>
+
+        <div class="book">
+            <img src="images/The Status Trap.png" alt="The Status Trap" />
+            <h3>The Status Trap</h3>
+            <a class="btn-grey">Coming Soon</a>
+        </div>
+
+        <div class="book">
+            <img src="images/THE FORMULA - HEALTH WEALTH LOVE FLOW  PERSPECTIVE PAIN.png" alt="THE FORMULA" />
+            <h3>The Formula</h3>
+            <a class="btn-grey">Coming Soon</a>
+        </div>
+
+        <div class="book">
+            <img src="images/Art_ The Final Frontier.png" alt="Art: The Final Frontier" />
+            <h3>Art: The Final Frontier</h3>
+            <a class="btn-grey">Coming Soon</a>
+        </div>
+
+        <div class="book">
+            <img src="images/How To Use Flow State To Win In Football.png" alt="Flow State Football" />
+            <h3>How To Use Flow State To Win In Football</h3>
+            <a class="btn-grey">Coming Soon</a>
+        </div>
+
+        <div class="book">
+            <img src="images/The Equilibrium Code Unlocking the Science of Balance - Book Cover (2).png" alt="The Equilibrium Code" />
+            <h3>The Equilibrium Code</h3>
+            <a class="btn-grey">Coming Soon</a>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2025 Cornelius Aurelius. All rights reserved.
+</footer>
+
+</body>
+</html>
